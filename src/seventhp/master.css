@@ -1,0 +1,25 @@
+.sep{
+    min-height: 50vh;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+}
+/* .sep>section{
+    border: 1px solid red;
+} */
+.sep>section:nth-of-type(2)>div>h2{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.sep>section:nth-of-type(2)>div>p{
+  font-size: 17px;
+  font-weight: 400;
+    
+}
+.sep>section:nth-of-type(2)>div>a{
+    color: #900;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.sep>section:nth-of-type(2)>div>a:hover{
+    color: #01548f;
+}

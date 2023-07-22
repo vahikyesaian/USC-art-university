@@ -1,0 +1,54 @@
+main{
+    overflow: hidden;
+}
+.foot{
+    min-height: 45vh;
+    background-color: #44433c;
+}
+.foot>section>div{
+    min-height: 20px;
+}
+.foot>section>div>ul>li{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.701);
+    padding: 3px 0;
+    cursor: pointer;
+}
+.foot>section>div>ul>li:hover{
+    text-decoration: underline;
+}
+.foot>section>div>ul>li:nth-of-type(1){
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    
+}
+.foot>section>div:nth-of-type(4){
+    position: relative;
+    
+}
+.foot>section>div:nth-of-type(4)::after{
+    content: '';
+    /* width: 80%; */
+    height: 1px;
+    background-color: rgba(220, 220, 220, 0.449);
+    position: absolute;
+
+   
+}
+
+.foot>section>div:nth-of-type(4)>ul>li{
+    font-size: 12px;
+    cursor: pointer;
+
+}
+.foot>section>div:nth-of-type(4)>ul>li:hover{
+    text-decoration: underline;
+}
+.foot>section>div:nth-of-type(4)>ul>li:nth-of-type(1){
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.701);
+}
+.foot>section>div:nth-of-type(4)>ul>li:nth-of-type(1):hover{
+    text-decoration: underline;
+}

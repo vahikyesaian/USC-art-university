@@ -1,0 +1,53 @@
+.sp{
+    min-height: 50px;
+    /* border: 1px solid black; */
+   
+}
+.title>*{
+    text-align: center;
+   
+}
+.title>p{
+    font-size: 22px;
+    text-transform: capitalize;
+    padding: 10px;
+    color: #1f1e18c0;
+    font-family:  "Source Sans Pro",sans-serif;
+    font-weight: 300;
+}
+.title>h2{
+    padding: 10px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.title>span{
+    width: 50px;
+    height: 7px;
+    background-color: #900;
+    display: block;
+}
+.fac{
+    min-height: 50px;
+}
+/* .fac>section{
+    border: 1px solid red;
+} */
+.fac>section>figure>figcaption:nth-of-type(1){
+    font-size: 30px;
+    font-weight: bold;
+}
+.fac>section>figure>figcaption:nth-of-type(2){
+    font-size: 17px;
+    /* font-weight: 100; */
+    
+}
+.fac>section>figure>a{
+    display: block;
+    margin: 20px 0;
+    color: #900;
+    font-weight: bold;
+    font-size: 18px;
+}
+.fac>section>figure>a:hover{
+    color: #01548f;
+}

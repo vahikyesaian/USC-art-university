@@ -1,0 +1,53 @@
+.fop{
+    min-height: 50px;
+}
+
+
+.fop>section>span{
+    width: 45px;
+    height: 8px;
+    background-color: #990000;
+    display: block;
+    margin-top: 20px;
+}
+.fop>section>h2{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px;
+    text-align: center;
+
+}
+.fop>section>div{
+   box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+}
+/* .fop>section>div>figure>img{
+    height: 180px;
+} */
+.fop>section>div>figure>div>figcaption:nth-of-type(1){
+    font-weight: bold;
+}
+.fop>section>div>figure>div>figcaption:nth-of-type(2){
+    font-size: 15px;
+}
+.fop>section>div>figure>div>figcaption:nth-of-type(3){
+    font-size: 11px;
+}
+.fop>section>div>figure>div>span{
+    width: 25px;
+    height: 3px;
+    background-color: #900;
+    display: block;
+
+}
+.btn{
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #900;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(184, 9, 9);
+    color: white;
+}

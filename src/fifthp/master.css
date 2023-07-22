@@ -1,0 +1,36 @@
+.fip{
+    min-height: 60vh;
+    border: 1px solid black;
+    background-image: url('https://arts.usc.edu/wp-content/uploads/2021/01/Visions-and-Voices.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.fip::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;left: 0;
+    background-color: rgba(0, 0, 0, 0.501);
+}
+.fip>section{
+    position: relative;
+    z-index: 11;
+    color: white;
+}
+.fip>section>h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.fip>section>p{
+    font-size: 18px;
+    
+}
+.fip>section>a{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
